@@ -1,9 +1,22 @@
-# helloworld
+## 版本
 
-AstrBot 插件模板
+1.0.0  
 
-A template plugin for AstrBot plugin feature
+## 功能说明
 
-# 支持
+- 当用户发送 **“资助”** 或 **“为爱发电”** 命令时，插件会从本地图片文件夹中读取图片并发送给用户。
+- 支持图片格式：`.jpg`, `.jpeg`, `.png`, `.gif`, `.bmp`。
 
-[帮助文档](https://astrbot.app)
+
+## 图片上传目录
+
+- 插件会在插件文件所在目录下自动创建一个名为 `caidan` 的文件夹：
+```
+astrbot_plugin_zidingyi/
+│
+├─ main.py           # 插件主文件
+├─ caidan/           # 上传图片的文件夹
+│   ├─ image1.jpg
+│   ├─ image2.png
+│   └─ ...
+```
